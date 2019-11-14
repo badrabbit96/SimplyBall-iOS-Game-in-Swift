@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC21E760237DAFAE00AAB15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */; };
+		FC21E762237DAFAE00AAB15D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC21E761237DAFAE00AAB15D /* GameScene.sks */; };
+		FC21E764237DAFAE00AAB15D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC21E763237DAFAE00AAB15D /* Actions.sks */; };
+		FC21E766237DAFAE00AAB15D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E765237DAFAE00AAB15D /* GameScene.swift */; };
+		FC21E768237DAFAE00AAB15D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E767237DAFAE00AAB15D /* GameViewController.swift */; };
+		FC21E76B237DAFAE00AAB15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21E769237DAFAE00AAB15D /* Main.storyboard */; };
+		FC21E76D237DAFB600AAB15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC21E76C237DAFB600AAB15D /* Assets.xcassets */; };
+		FC21E770237DAFB600AAB15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21E76E237DAFB600AAB15D /* LaunchScreen.storyboard */; };
+		FC21E77B237DAFB700AAB15D /* Simply_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E77A237DAFB700AAB15D /* Simply_BallTests.swift */; };
+		FC21E786237DAFB700AAB15D /* Simply_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E785237DAFB700AAB15D /* Simply_BallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC21E777237DAFB700AAB15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC21E754237DAFAE00AAB15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC21E75B237DAFAE00AAB15D;
+			remoteInfo = "Simply Ball";
+		};
+		FC21E782237DAFB700AAB15D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC21E754237DAFAE00AAB15D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC21E75B237DAFAE00AAB15D;
+			remoteInfo = "Simply Ball";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC21E75C237DAFAE00AAB15D /* Simply Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC21E761237DAFAE00AAB15D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC21E763237DAFAE00AAB15D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FC21E765237DAFAE00AAB15D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC21E767237DAFAE00AAB15D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC21E76A237DAFAE00AAB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC21E76C237DAFB600AAB15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC21E76F237DAFB600AAB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC21E771237DAFB600AAB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC21E776237DAFB700AAB15D /* Simply BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC21E77A237DAFB700AAB15D /* Simply_BallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simply_BallTests.swift; sourceTree = "<group>"; };
+		FC21E77C237DAFB700AAB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC21E781237DAFB700AAB15D /* Simply BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC21E785237DAFB700AAB15D /* Simply_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simply_BallUITests.swift; sourceTree = "<group>"; };
+		FC21E787237DAFB700AAB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC21E759237DAFAE00AAB15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E773237DAFB700AAB15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E77E237DAFB700AAB15D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC21E753237DAFAE00AAB15D = {
+			isa = PBXGroup;
+			children = (
+				FC21E75E237DAFAE00AAB15D /* Simply Ball */,
+				FC21E779237DAFB700AAB15D /* Simply BallTests */,
+				FC21E784237DAFB700AAB15D /* Simply BallUITests */,
+				FC21E75D237DAFAE00AAB15D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC21E75D237DAFAE00AAB15D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC21E75C237DAFAE00AAB15D /* Simply Ball.app */,
+				FC21E776237DAFB700AAB15D /* Simply BallTests.xctest */,
+				FC21E781237DAFB700AAB15D /* Simply BallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC21E75E237DAFAE00AAB15D /* Simply Ball */ = {
+			isa = PBXGroup;
+			children = (
+				FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */,
+				FC21E761237DAFAE00AAB15D /* GameScene.sks */,
+				FC21E763237DAFAE00AAB15D /* Actions.sks */,
+				FC21E765237DAFAE00AAB15D /* GameScene.swift */,
+				FC21E767237DAFAE00AAB15D /* GameViewController.swift */,
+				FC21E769237DAFAE00AAB15D /* Main.storyboard */,
+				FC21E76C237DAFB600AAB15D /* Assets.xcassets */,
+				FC21E76E237DAFB600AAB15D /* LaunchScreen.storyboard */,
+				FC21E771237DAFB600AAB15D /* Info.plist */,
+			);
+			path = "Simply Ball";
+			sourceTree = "<group>";
+		};
+		FC21E779237DAFB700AAB15D /* Simply BallTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC21E77A237DAFB700AAB15D /* Simply_BallTests.swift */,
+				FC21E77C237DAFB700AAB15D /* Info.plist */,
+			);
+			path = "Simply BallTests";
+			sourceTree = "<group>";
+		};
+		FC21E784237DAFB700AAB15D /* Simply BallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC21E785237DAFB700AAB15D /* Simply_BallUITests.swift */,
+				FC21E787237DAFB700AAB15D /* Info.plist */,
+			);
+			path = "Simply BallUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC21E75B237DAFAE00AAB15D /* Simply Ball */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC21E78A237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply Ball" */;
+			buildPhases = (
+				FC21E758237DAFAE00AAB15D /* Sources */,
+				FC21E759237DAFAE00AAB15D /* Frameworks */,
+				FC21E75A237DAFAE00AAB15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simply Ball";
+			productName = "Simply Ball";
+			productReference = FC21E75C237DAFAE00AAB15D /* Simply Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC21E775237DAFB700AAB15D /* Simply BallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC21E78D237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply BallTests" */;
+			buildPhases = (
+				FC21E772237DAFB700AAB15D /* Sources */,
+				FC21E773237DAFB700AAB15D /* Frameworks */,
+				FC21E774237DAFB700AAB15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC21E778237DAFB700AAB15D /* PBXTargetDependency */,
+			);
+			name = "Simply BallTests";
+			productName = "Simply BallTests";
+			productReference = FC21E776237DAFB700AAB15D /* Simply BallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC21E780237DAFB700AAB15D /* Simply BallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC21E790237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply BallUITests" */;
+			buildPhases = (
+				FC21E77D237DAFB700AAB15D /* Sources */,
+				FC21E77E237DAFB700AAB15D /* Frameworks */,
+				FC21E77F237DAFB700AAB15D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC21E783237DAFB700AAB15D /* PBXTargetDependency */,
+			);
+			name = "Simply BallUITests";
+			productName = "Simply BallUITests";
+			productReference = FC21E781237DAFB700AAB15D /* Simply BallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC21E754237DAFAE00AAB15D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Tomek Niemczyk";
+				TargetAttributes = {
+					FC21E75B237DAFAE00AAB15D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FC21E775237DAFB700AAB15D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FC21E75B237DAFAE00AAB15D;
+					};
+					FC21E780237DAFB700AAB15D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FC21E75B237DAFAE00AAB15D;
+					};
+				};
+			};
+			buildConfigurationList = FC21E757237DAFAE00AAB15D /* Build configuration list for PBXProject "Simply Ball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC21E753237DAFAE00AAB15D;
+			productRefGroup = FC21E75D237DAFAE00AAB15D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC21E75B237DAFAE00AAB15D /* Simply Ball */,
+				FC21E775237DAFB700AAB15D /* Simply BallTests */,
+				FC21E780237DAFB700AAB15D /* Simply BallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC21E75A237DAFAE00AAB15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC21E76B237DAFAE00AAB15D /* Main.storyboard in Resources */,
+				FC21E762237DAFAE00AAB15D /* GameScene.sks in Resources */,
+				FC21E76D237DAFB600AAB15D /* Assets.xcassets in Resources */,
+				FC21E770237DAFB600AAB15D /* LaunchScreen.storyboard in Resources */,
+				FC21E764237DAFAE00AAB15D /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E774237DAFB700AAB15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E77F237DAFB700AAB15D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC21E758237DAFAE00AAB15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC21E766237DAFAE00AAB15D /* GameScene.swift in Sources */,
+				FC21E768237DAFAE00AAB15D /* GameViewController.swift in Sources */,
+				FC21E760237DAFAE00AAB15D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E772237DAFB700AAB15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC21E77B237DAFB700AAB15D /* Simply_BallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21E77D237DAFB700AAB15D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC21E786237DAFB700AAB15D /* Simply_BallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC21E778237DAFB700AAB15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC21E75B237DAFAE00AAB15D /* Simply Ball */;
+			targetProxy = FC21E777237DAFB700AAB15D /* PBXContainerItemProxy */;
+		};
+		FC21E783237DAFB700AAB15D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC21E75B237DAFAE00AAB15D /* Simply Ball */;
+			targetProxy = FC21E782237DAFB700AAB15D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC21E769237DAFAE00AAB15D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC21E76A237DAFAE00AAB15D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC21E76E237DAFB600AAB15D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC21E76F237DAFB600AAB15D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC21E788237DAFB700AAB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC21E789237DAFB700AAB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC21E78B237DAFB700AAB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC21E78C237DAFB700AAB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply Ball/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-Ball";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC21E78E237DAFB700AAB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simply Ball.app/Simply Ball";
+			};
+			name = Debug;
+		};
+		FC21E78F237DAFB700AAB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply BallTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-BallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Simply Ball.app/Simply Ball";
+			};
+			name = Release;
+		};
+		FC21E791237DAFB700AAB15D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simply Ball";
+			};
+			name = Debug;
+		};
+		FC21E792237DAFB700AAB15D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4VVVQ33FX;
+				INFOPLIST_FILE = "Simply BallUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "tomek.Simply-BallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Simply Ball";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC21E757237DAFAE00AAB15D /* Build configuration list for PBXProject "Simply Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC21E788237DAFB700AAB15D /* Debug */,
+				FC21E789237DAFB700AAB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC21E78A237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC21E78B237DAFB700AAB15D /* Debug */,
+				FC21E78C237DAFB700AAB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC21E78D237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply BallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC21E78E237DAFB700AAB15D /* Debug */,
+				FC21E78F237DAFB700AAB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC21E790237DAFB700AAB15D /* Build configuration list for PBXNativeTarget "Simply BallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC21E791237DAFB700AAB15D /* Debug */,
+				FC21E792237DAFB700AAB15D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC21E754237DAFAE00AAB15D /* Project object */;
+}
