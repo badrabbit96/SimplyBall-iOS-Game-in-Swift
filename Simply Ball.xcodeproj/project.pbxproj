@@ -9,14 +9,16 @@
 /* Begin PBXBuildFile section */
 		FC21E760237DAFAE00AAB15D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */; };
 		FC21E762237DAFAE00AAB15D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC21E761237DAFAE00AAB15D /* GameScene.sks */; };
-		FC21E764237DAFAE00AAB15D /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC21E763237DAFAE00AAB15D /* Actions.sks */; };
 		FC21E766237DAFAE00AAB15D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E765237DAFAE00AAB15D /* GameScene.swift */; };
 		FC21E768237DAFAE00AAB15D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E767237DAFAE00AAB15D /* GameViewController.swift */; };
 		FC21E76B237DAFAE00AAB15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21E769237DAFAE00AAB15D /* Main.storyboard */; };
-		FC21E76D237DAFB600AAB15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC21E76C237DAFB600AAB15D /* Assets.xcassets */; };
 		FC21E770237DAFB600AAB15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC21E76E237DAFB600AAB15D /* LaunchScreen.storyboard */; };
 		FC21E77B237DAFB700AAB15D /* Simply_BallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E77A237DAFB700AAB15D /* Simply_BallTests.swift */; };
 		FC21E786237DAFB700AAB15D /* Simply_BallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC21E785237DAFB700AAB15D /* Simply_BallUITests.swift */; };
+		FC4BC590238D401800A83EDA /* LanuchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4BC58F238D401800A83EDA /* LanuchScreen.swift */; };
+		FC4BC592238E95DB00A83EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4BC591238E95DB00A83EDA /* Assets.xcassets */; };
+		FCE3E825237ED664007CACBB /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE3E824237ED664007CACBB /* GameOverScene.swift */; };
+		FCE3E82B238039F3007CACBB /* Adventure.otf in Resources */ = {isa = PBXBuildFile; fileRef = FCE3E82A238039F3007CACBB /* Adventure.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,11 +42,9 @@
 		FC21E75C237DAFAE00AAB15D /* Simply Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simply Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC21E761237DAFAE00AAB15D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		FC21E763237DAFAE00AAB15D /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		FC21E765237DAFAE00AAB15D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		FC21E767237DAFAE00AAB15D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		FC21E76A237DAFAE00AAB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC21E76C237DAFB600AAB15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC21E76F237DAFB600AAB15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC21E771237DAFB600AAB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC21E776237DAFB700AAB15D /* Simply BallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply BallTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +53,10 @@
 		FC21E781237DAFB700AAB15D /* Simply BallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simply BallUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC21E785237DAFB700AAB15D /* Simply_BallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Simply_BallUITests.swift; sourceTree = "<group>"; };
 		FC21E787237DAFB700AAB15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC4BC58F238D401800A83EDA /* LanuchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanuchScreen.swift; sourceTree = "<group>"; };
+		FC4BC591238E95DB00A83EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE3E824237ED664007CACBB /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		FCE3E82A238039F3007CACBB /* Adventure.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Adventure.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,13 +109,15 @@
 			children = (
 				FC21E75F237DAFAE00AAB15D /* AppDelegate.swift */,
 				FC21E761237DAFAE00AAB15D /* GameScene.sks */,
-				FC21E763237DAFAE00AAB15D /* Actions.sks */,
 				FC21E765237DAFAE00AAB15D /* GameScene.swift */,
 				FC21E767237DAFAE00AAB15D /* GameViewController.swift */,
+				FCE3E82A238039F3007CACBB /* Adventure.otf */,
 				FC21E769237DAFAE00AAB15D /* Main.storyboard */,
-				FC21E76C237DAFB600AAB15D /* Assets.xcassets */,
 				FC21E76E237DAFB600AAB15D /* LaunchScreen.storyboard */,
 				FC21E771237DAFB600AAB15D /* Info.plist */,
+				FC4BC591238E95DB00A83EDA /* Assets.xcassets */,
+				FCE3E824237ED664007CACBB /* GameOverScene.swift */,
+				FC4BC58F238D401800A83EDA /* LanuchScreen.swift */,
 			);
 			path = "Simply Ball";
 			sourceTree = "<group>";
@@ -239,10 +245,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC21E76B237DAFAE00AAB15D /* Main.storyboard in Resources */,
+				FCE3E82B238039F3007CACBB /* Adventure.otf in Resources */,
 				FC21E762237DAFAE00AAB15D /* GameScene.sks in Resources */,
-				FC21E76D237DAFB600AAB15D /* Assets.xcassets in Resources */,
 				FC21E770237DAFB600AAB15D /* LaunchScreen.storyboard in Resources */,
-				FC21E764237DAFAE00AAB15D /* Actions.sks in Resources */,
+				FC4BC592238E95DB00A83EDA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC4BC590238D401800A83EDA /* LanuchScreen.swift in Sources */,
 				FC21E766237DAFAE00AAB15D /* GameScene.swift in Sources */,
 				FC21E768237DAFAE00AAB15D /* GameViewController.swift in Sources */,
+				FCE3E825237ED664007CACBB /* GameOverScene.swift in Sources */,
 				FC21E760237DAFAE00AAB15D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4VVVQ33FX;
 				INFOPLIST_FILE = "Simply Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,6 +472,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S4VVVQ33FX;
 				INFOPLIST_FILE = "Simply Ball/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
